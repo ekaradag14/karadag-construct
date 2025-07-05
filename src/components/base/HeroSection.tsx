@@ -19,15 +19,13 @@ const HeroSection = () => {
       }}
     >
       {/* Top Bar */}
-      <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 4 }}>
-        <Box sx={{ bgcolor: '#181818', color: '#fff', px: 2, py: 0.5, borderRadius: '4px', fontWeight: 700, fontSize: 16 }}>
-          MOD-7
-        </Box>
+      <Box sx={{ display: 'flex', justifyContent: 'end', alignItems: 'center', mb: 4 }}>
+
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
           <Typography variant="body2" sx={{ fontWeight: 500, mr: 0.5, letterSpacing: 1, display: 'flex', alignItems: 'center' }}>
             CONTACT <ArrowOutwardIcon sx={{ fontSize: 18, ml: 0.5 }} />
           </Typography>
-          <Box sx={{ width: 28, height: 2, bgcolor: '#181818' }} />
+   
         </Box>
       </Box>
 
